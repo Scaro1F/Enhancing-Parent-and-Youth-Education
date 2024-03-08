@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Simple & Original UI</title>
+</head>
+<body>
+  <header>
+      <h1> Enhancing Parent and Youth Education
+</h1>
+  </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="main-content">
+
+
+
+
+<p>
+      <b> Click on the buttons below to change
+       the language of the webpage. /
+        Haga clic en los botones a continuación para cambiar
+        el idioma de la página web.
+        </b>
+   </p>
+   <!-- Define the buttons that will
+           change the language of the page
+ and reload it -->
+   <button onclick="changeLanguage('eng')">
+   Change to English</button>
+          <button onclick="changeLanguage('es')">
+       Change to Spanish
+   </button>
+   <!-- Define the content of the page
+                      that would be changed -->
+   <p id="siteContent">
+     Welcome, this website is to help give greater accessibility to education in our communities as many
+     people don't have the required amount of education for our society for the working field.
+      We believe that this is an inequity that is overlooked, even though there are many people
+      in our lives who have lived through this inequity. As it creates an imbalance in the equality
+       of those who need a job. So our goal is to support those who couldn't gain that type of
+        education and help try to prevent it from happening to others.
+   </p>
+   <script>
+       // Create a function to change
+       // the hash value of the page
+       function changeLanguage(lang) {
+           location.hash = lang;
+           location.reload();
+       }
+       // Define the language reload anchors
+       let language = {
+           eng: {
+               welcome:
+                   "Portal! You can choose any language " +
+                   "using the buttons above!"
+           },
+           es: {
+               welcome:"Bienvenido, este sitio web es para ayudar a brindar mayor accesibilidad a la educación en nuestras comunidades, ya que muchas personas no tienen la cantidad de educación requerida por nuestra sociedad para el campo laboral. Creemos que esta es una inequidad que se pasa por alto, a pesar de que hay muchas personas en nuestras vidas que han vivido esta inequidad. Ya que crea un desequilibrio en la igualdad de quienes necesitan un trabajo. Entonces, nuestro objetivo es apoyar a aquellos que no pudieron obtener ese tipo de educación y ayudar a tratar de evitar que les suceda a otros."
+           }
+       };
+       // Check if a hash value exists in the URL
+       if (window.location.hash) {
+           // Set the content of the webpage
+           // depending on the hash value
+           if (window.location.hash == "#es") {
+               siteContent.textContent =
+                   language.es.welcome;
+                 
+           }
+       }
+   </script>
+
+
+
+
+      <p>
+  <hr>
+
+
+
+
+
+
+
+
+<section>
+ <h2>The Woodecrest Library</h2>
+
+
+
+
+ <img src="https://th.bing.com/th/id/OIP._6szx9pzLoVFP05FiKKR1wHaHK?w=187&h=180&c=7&r=0&o=5&pid=1.7" alt="Just a pic" width="100" height="100">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <br>
+   <a href="https://lacountylibrary.org/" target="-blank">
+  <button style="background-color: green; color: white;">Go to Website</button>
+</a>
+
+
+
+
+
+
+
+
+ <p>The Woodcrest Library is a public Library that has a lot of resources, programs, and opporutnities that would aid us in our goal to promote a better education.
+<br>
+<br>
+La Biblioteca Woodcrest es una biblioteca pública que tiene muchos recursos, programas y oportunidades que nos ayudarían en nuestro objetivo de promover una mejor educación.</p>
+</section>
+
+
+
+
+<hr>
+
+
+
+
+<section>
+ <h2>Southwest College</h2>
+
+
+
+
+ <img src="https://th.bing.com/th/id/OIP.45V_a6ZSKpcSFI9qs9urkQHaHa?w=162&h=180&c=7&r=0&o=5&pid=1.7" alt="Just a pic" width="100" height="100">
+
+
+
+
+ <br>
+   <a href="https://www.lasc.edu/" target="-blank">
+  <button style="background-color: green; color: white;">Go to Website</button>
+</a>
+
+
+
+
+
+
+
+
+ <p> Southwest College is a public community college with a program where you can go and learn how to speak English, how to use a computer, and more. Helping people understand the modern things we use in society everyday.
+<br>
+<br>
+ Southwest College es un colegio comunitario público con un programa donde puedes ir y aprender a hablar inglés, a usar una computadora y más. Ayudando a las personas a comprender las cosas modernas que usamos en la sociedad todos los días.</p>
+</section>
+
+
+
+
+<hr>
+
+
+
+
+<section>
+ <h2>Duolingo</h2>
+
+
+
+
+ <img src="https://i.pinimg.com/474x/9e/4b/a4/9e4ba47816081d5023f93d13cf66f1b9.jpg" alt="Just a pic" width="120" height="200">
+
+
+
+
+ <br>
+   <a href="https://www.duolingo.com/register" target="-blank">
+  <button style="background-color: green; color: white;">Go to Website</button>
+</a>
+
+
+
+
+
+
+
+
+ <p> Duolingo is an app that helps you learn a different language quick and easily. Varying from languages that are all over the world.
+<br>
+<br>
+Duolingo es una aplicación que te ayuda a aprender un idioma diferente de forma rápida y sencilla. Variando desde idiomas que están en todo el mundo.
+</p>
+</section>
+
+
+
+
+
+
+
+
+<hr>
+
+
+
+
+<section>
+ <h2>Khan Academy</h2>
+
+
+
+
+ <img src="https://www.codewizardshq.com/wp-content/uploads/2021/05/Khan-Academy.jpg" alt="Just a pic" width="100" height="100">
+
+
+
+
+ <br>
+   <a href="https://www.khanacademy.org/" target="-blank">
+  <button style="background-color: green; color: white;">Go to Website</button>
+</a>
+
+
+
+
+
+
+
+
+ <p> Khan Academy is an website that teaches and explains how to do math, history,english, and more. Overall, it has entire lessons on how to do something step by step making it easier to learn.
+<br>
+<br>
+Khan Academy es un sitio web que enseña y explica cómo hacer matemáticas, historia, inglés y más. En general, tiene lecciones completas sobre cómo hacer algo paso a paso para que sea más fácil de aprender.
+</p>
+</section>
+
+
+
+
+<hr>
+
+
+
+
+<section>
+ <h2>XtraMath</h2>
+
+
+
+
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/XtraMath_logo.svg/1280px-XtraMath_logo.svg.png" alt="Just a pic" width="180" height="80">
+
+
+
+
+ <br>
+   <a href="https://home.xtramath.org/" target="-blank">
+  <button style="background-color: green; color: white;">Go to Website</button>
+</a>
+
+
+
+
+
+
+
+
+ <p> XtraMath is a website where it is great a challenge to see how much math you understand at your level and helps you increase that understanding.
+<br>
+<br>
+XtraMath es un sitio web donde es un gran desafío ver cuántas matemáticas entiendes en tu nivel y te ayuda a aumentar esa comprensión.
+</p>
+</section>
+
+
+
+
+
+
+
+
+<hr>
+
+
+
+
+<section>
+ <h2>Prodigy</h2>
+
+
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuUGhFrXDZ4Uxe9EY-z-8bXhZ_8Ytn5Crgfw&usqp=CAU" alt="Just a pic" width="100" height="100">
+
+
+ <br>
+   <a href="https://www.prodigygame.com/main-en/" target="-blank">
+  <button style="background-color: green; color: white;">Go to Website</button>
+</a>
+
+
+
+
+ <p> Prodigy is a website where it's based on a game that you can play and level up in. The game varies from math and English. The game is based on your level of understanding of the topic.
+<br>
+<br>
+Prodigy es un sitio web que se basa en un juego al que puedes jugar y subir de nivel. El juego varía desde matemáticas hasta inglés. El juego se basa en tu nivel de comprensión del tema.
+
+
+</section>
+
+
+<hr>
+
+
+
+
+<section>
+ <h2>Quizlet</h2>
+
+
+
+
+ <img src="https://dlsdc.com/wp-content/uploads/2023/09/quizlet.jpeg" alt="Just a pic" width=to" height="100",>
+
+
+
+
+ <br>
+    <a href="https://quizlet.com/" target="-blank">
+  <button style="background-color: green; color: white;">Go to Website</button>
+</a>
+
+
+
+
+
+
+
+
+ <p> Quizlet is a website where it provides definitions of different terms that can relate from science, math and more.
+<br>
+<br>
+Quizlet is a website where it provides definitions of different terms that can relate from science, math and more.
+</p>
+</section>
+
+
+<hr>
+
+<title>Comment Box</title>
+<style>
+    /* Style for the comment box */
+    #commentBox {
+        width: 300px;
+        height: 150px;
+        resize: none;
+    }
+    /* Style for the saved comments */
+    #savedComments {
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+    <h2>Leave a Review</h2>
+    <!-- Comment box form -->
+    <form id="commentForm">
+        <textarea id="commentBox" placeholder="Write your comment here..."></textarea><br>
+        <!-- Button to submit the comment -->
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Display area for submitted comments -->
+    <div id="savedComments">
+        <!-- Saved comments will be displayed here -->
+    </div>
+
+    <script>
+        // Function to save comment
+        function saveComment(event) {
+            event.preventDefault(); // Prevent form submission
+            var comment = document.getElementById("commentBox").value; // Get the comment
+            var savedComments = document.getElementById("savedComments");
+            var commentElement = document.createElement("p"); // Create a paragraph element for the comment
+            commentElement.textContent = comment; // Set the text content of the paragraph to the comment
+            savedComments.appendChild(commentElement); // Append the comment paragraph to the saved comments div
+            document.getElementById("commentForm").reset(); // Reset the form
+        }
+
+        // Add event listener to the form for submitting comments
+        document.getElementById("commentForm").addEventListener("submit", saveComment);
+    </script>
+
+
+   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+      <p>&copy; By Oscar Fernandez, Yesenia Gomez, Sergio Falcon, and Jacob Leon.</p>
+      <p> Advisor: Ms. Alexandra </p>
+  </footer>
+
+
+
+
+
+
+
+
+
