@@ -1,0 +1,67 @@
+<button onclick="window.location.href='https://www.lasc.edu/'">Click Me!</button>
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0069d9;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0069d9;
+}
+
+header {
+    background-color: #4e5a9e;
+    color: #fff;
+
+
+<button onclick="window.location.href='https://www.lasc.edu/'">Click Me!</button>
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0069d9;
+}
+
+header {
+
+
+header {
+    background-color: #4e5a9e;
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0069d9;
+}
+
+header {
+    background-color: #4e5a9e;
+    color: #fff;
+
+
+<button onclick="window.location.href='https://www.lasc.edu/'">Click Me!</button>
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0069d9;
+}
+
+header {
+
+
+    color: #fff;
+
+
+<button onclick="window.location.href='https://www.lasc.edu/'">Click Me!</button>
+
+<button onclick="window.location.href='https://www.nytimes.com/games/wordle/index.html'">Click Me!</button>
+
+<button onclick="window.location.href='https://www.nytimes.com/games/wordle/index.html'">Click Me!</button>
